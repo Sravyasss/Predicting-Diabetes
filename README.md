@@ -24,16 +24,46 @@ The goal is to determine which approach offers more reliable predictions for ini
 ## Project Structure
 
 ```
+predicting-diabetes/
+│
+├── README.md                              # Main project documentation
+├── requirements.txt                       # Python dependencies
+│
 ├── data/
-│   └── diabetes_dataset.csv          # 100,000 patient records with 31 features
+│   └── diabetes_dataset.csv               # Original dataset (100,000 records)
+│
 ├── code/
-│   └── Main.py                       # Complete pipeline implementation
-├── reports/
-│   └── diabetes_report.pdf           # Comprehensive analysis report
+│   ├── Main.py                            # Main pipeline implementation
+│   ├── diabetes_prediction_complete.py    
+│   └── test_model.py                      
+│
 ├── models/
-│   ├── best_model_improved.pkl       # Trained best performing model
-│   ├── scaler.pkl                    # Fitted StandardScaler
-│   ├── label_encoder.pkl             # Categorical label encode
+│   ├── best_model_improved.pkl            # Trained Random Forest model link: 
+│   ├── scaler_improved.pkl                # StandardScaler object
+│   └── label_encoder_improved.pkl         # Label encoder object
+│
+├── reports/
+│   ├── Predicting_Diabetes_Project-Report.pdf    # Final comprehensive report
+│ 
+├── presentation/
+│   ├── Predicting_Diabetes_Slide_Deck     # PowerPoint deck
+│   
+├── output/
+│   └── visualizations/
+│       ├── confusion_matrix_binary.png                    # Binary classification
+│       ├── confusion_matrix_multiclass.png               # Multi-class classification
+│       ├── sensitivity_specificity_tradeoff.png          # ROC-like curve
+│       ├── test_accuracy_by_model_binary.png             # Binary model comparison
+│       ├── test_accuracy_by_model_multiclass.png         # Multi-class model comparison
+│       ├── cv_vs_test_performance_gap_multiclass.png     # Training vs test gap
+│       ├── cv_f1_scores_binary.png                       # Binary CV performance
+│       ├── cv_f1_scores_multiclass.png                   # Multi-class CV performance
+│       ├── feature_importance_comparison.png              # Top 10 features
+│       └── model_performance_comparison.png              # Multi-class vs Binary
+│
+└── .gitignore
+
+
 
 ```
 
@@ -151,3 +181,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Chawla, N. V., et al. (2002). SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial Intelligence Research*, 16, 321-357.
 - World Health Organization. (2025). Diabetes. Retrieved from https://www.who.int/health-topics/diabetes
 - American Diabetes Association (2021). Classification and diagnosis of diabetes: Standards of medical care in diabetes—2021. 
+
