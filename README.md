@@ -37,8 +37,8 @@ predicting-diabetes/
 │   ├── diabetes_prediction_complete.py    
 │   └── test_model.py                      
 │
-├── models/
-│   ├── best_model_improved.pkl            # Trained Random Forest model link: 
+├── ouputs/
+│   ├── best_model_improved.pkl            # [model_pkl](best_model_improved.pkl)](https://redhawks-my.sharepoint.com/:u:/g/personal/smurala_seattleu_edu/IQAP5mDpUOeNSpwju-D3cHfYAUNH-AWlvl7IDpWNeIlO9Co?e=ddI6Tv)
 │   ├── scaler_improved.pkl                # StandardScaler object
 │   └── label_encoder_improved.pkl         # Label encoder object
 │
@@ -48,20 +48,18 @@ predicting-diabetes/
 ├── presentation/
 │   ├── Predicting_Diabetes_Slide_Deck     # PowerPoint deck
 │   
-├── output/
-│   └── visualizations/
-│       ├── confusion_matrix_binary.png                    # Binary classification
-│       ├── confusion_matrix_multiclass.png               # Multi-class classification
-│       ├── sensitivity_specificity_tradeoff.png          # ROC-like curve
-│       ├── test_accuracy_by_model_binary.png             # Binary model comparison
-│       ├── test_accuracy_by_model_multiclass.png         # Multi-class model comparison
-│       ├── cv_vs_test_performance_gap_multiclass.png     # Training vs test gap
-│       ├── cv_f1_scores_binary.png                       # Binary CV performance
-│       ├── cv_f1_scores_multiclass.png                   # Multi-class CV performance
-│       ├── feature_importance_comparison.png              # Top 10 features
-│       └── model_performance_comparison.png              # Multi-class vs Binary
-│
-└── .gitignore
+├── visualizations/
+│   ├── confusion_matrix_binary.png                    # Binary classification
+│   ├── confusion_matrix_multiclass.png               # Multi-class classification
+│   ├── sensitivity_specificity_tradeoff.png          # ROC-like curve
+│   ├── test_accuracy_by_model_binary.png             # Binary model comparison
+│   ├── test_accuracy_by_model_multiclass.png         # Multi-class model comparison
+│   ├── cv_vs_test_performance_gap_multiclass.png     # Training vs test gap
+│   ├── cv_f1_scores_binary.png                       # Binary CV performance
+│   ├── cv_f1_scores_multiclass.png                   # Multi-class CV performance
+│   ├── feature_importance_comparison.png              # Top 10 features
+│   └── model_performance_comparison.png              # Multi-class vs Binary
+
 
 
 
@@ -71,7 +69,7 @@ predicting-diabetes/
 
 ## Data
 
-- **Source:** Kaggle - Diabetes Health Indicators Dataset (https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset/data)
+- **Source:** Kaggle - [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset/data)
 
 - **Size:** 14.37 MB
 
@@ -91,7 +89,7 @@ predicting-diabetes/
 
 - **Target Variable:** Diabetes stage (5 classes: No Diabetes, Pre-Diabetes, Type 1, Type 2, Gestational)
 
-- **License:** CC0: Public Domain (https://creativecommons.org/publicdomain/zero/1.0/)
+- **License:** CC0: Public [Domain](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Methodology
 
@@ -149,8 +147,8 @@ The binary classification framework provides a practical foundation for initial 
   
 ## Authors
 
--  Sravya Murala - (https://github.com/Sravyasss)
--  Jacob Wilson - (https://github.com/jwilsonc)
+-  Sravya Murala - [Github Link](https://github.com/Sravyasss)
+-  Jacob Wilson - [Github Link](https://github.com/jwilsonc)
 
 ---
 
@@ -179,6 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Breiman, L. (2001). Random forests. *Machine Learning*, 45(1), 5-32.
 - Chawla, N. V., et al. (2002). SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial Intelligence Research*, 16, 321-357.
-- World Health Organization. (2025). Diabetes. Retrieved from https://www.who.int/health-topics/diabetes
+- World Health Organization. (2025). Diabetes. Retrieved from the [link](https://www.who.int/health-topics/diabetes)
 - American Diabetes Association (2021). Classification and diagnosis of diabetes: Standards of medical care in diabetes—2021. 
+
 
