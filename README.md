@@ -30,8 +30,10 @@ predicting-diabetes/
 ├── requirements.txt                       # Python dependencies
 │
 ├── data/
-│   └── diabetes_dataset.csv               # Original dataset (100,000 records)
-│
+│   ├── diabetes_dataset.csv               # Original dataset (100,000 records)
+│   ├── prediction_results.csv             # Prediction csv
+│   └── test_patients.csv                  # Test data csv
+│ 
 ├── code/
 │   ├── Main.py                            # Main pipeline implementation
 │   ├── diabetes_prediction_complete.py    
@@ -45,10 +47,10 @@ predicting-diabetes/
 │      ├── catboost_training.json  
 │
 │
-├── reports/
+├── report/
 │   ├── Predicting_Diabetes_Project-Report.pdf    # Final comprehensive report
 │ 
-├── presentation/
+├── Presentation Slides/
 │   ├── Predicting_Diabetes_Slide_Deck     # PowerPoint deck
 │   
 └── visualizations/
@@ -182,6 +184,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Chawla, N. V., et al. (2002). SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial Intelligence Research*, 16, 321-357.
 - World Health Organization. (2025). Diabetes. Retrieved from the [link](https://www.who.int/health-topics/diabetes)
 - American Diabetes Association (2021). Classification and diagnosis of diabetes: Standards of medical care in diabetes—2021. 
+
 
 
 
