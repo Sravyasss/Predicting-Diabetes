@@ -26,44 +26,43 @@ The goal is to determine which approach offers more reliable predictions for ini
 ```
 predicting-diabetes/
 │
-├── README.md                              # Main project documentation
-├── requirements.txt                       # Python dependencies
+├── README.md                                         # Main project documentation
+├── requirements.txt                                  # Python dependencies
 │
 ├── data/
-│   ├── diabetes_dataset.csv               # Original dataset (100,000 records)
-│   ├── prediction_results.csv             # Model prediction results 
-│   └── test_patients.csv                  # Input records used to generate predictions
+│   ├── diabetes_dataset.csv                          # Original dataset (100,000 records)
+│   ├── prediction_results.csv                        # Model prediction results 
+│   └── test_patients.csv                             # Input records used to generate predictions
 │ 
 ├── code/
-│   ├── Main.py                            # Main pipeline implementation  
+│   ├── Main.py                                       # Main pipeline implementation  
 │   └── test_model.py                      
 │
 ├── outputs/
-│   ├── best_model_improved.pkl            # Model OneDrive link mentioned below
-│   ├── scaler_improved.pkl                # StandardScaler object
-│   └── label_encoder_improved.pkl         # Label encoder object
+│   ├── best_model_improved.pkl                       # Model OneDrive link mentioned below
+│   ├── scaler_improved.pkl                           # StandardScaler object
+│   └── label_encoder_improved.pkl                    # Label encoder object
 │
 │
 ├── report/
-│   ├── Predicting_Diabetes_Project-Report.pdf    # Final comprehensive report
+│   ├── Predicting_Diabetes_Project-Report.pdf        # Final comprehensive report
 │ 
 ├── Presentation Slides/
-│   ├── Predicting_Diabetes_Slide_Deck     # PowerPoint deck
+│   ├── Predicting_Diabetes_Slide_Deck                # PowerPoint deck
 │   
 └── visualizations/
     ├── confusion_matrix_binary.png                   # Binary classification
     ├── confusion_matrix_multiclass.png               # Multi-class classification
-    ├── sensitivity_specificity_tradeoff.png          # Tradeoff curve
-    ├── test_accuracy_by_model_binary.png             # Binary model comparison
-    ├── test_accuracy_by_model_multiclass.png         # Multi-class model comparison
-    ├── cv_vs_test_performance_gap_multiclass.png     # cv vs test gap
     ├── cv_f1_scores_binary.png                       # Binary CV performance
-    ├── cv_f1_scores_multiclass.png                   # Multi-class CV performance
-    ├── feature_importance_comparison.png             # Top 10 features
-    └── model_performance_comparison.png              # Multi-class vs Binary
-
-
-
+    ├── cv_f1_scores_multi.png                        # Multi-class CV performance
+    ├── figure1_feature_comparison.png                # Top 10 features
+    ├── figure4_multi_vs_binary.png                   # Multi-class vs Binary
+    ├── figure5_cv_vs_test.png                        # cv vs test gap
+    ├── figure6_sensitivity_specificity.png           # Tradeoff curve
+    ├── test_accuracy__binary.png                     # Binary model comparison
+    └── test_accuracy_multi.png                       # Multi-class model comparison   
+    
+    
 
 ```
 Best Model Imporved-Pkl file: [best_model_improved.pkl](https://redhawks-my.sharepoint.com/:u:/g/personal/smurala_seattleu_edu/IQAP5mDpUOeNSpwju-D3cHfYAUNH-AWlvl7IDpWNeIlO9Co?e=ddI6Tv)
@@ -187,6 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Chawla, N. V., et al. (2002). SMOTE: Synthetic minority over-sampling technique. *Journal of Artificial Intelligence Research*, 16, 321-357.
 - World Health Organization. (2025). Diabetes. Retrieved from the [link](https://www.who.int/health-topics/diabetes)
 - American Diabetes Association (2021). Classification and diagnosis of diabetes: Standards of medical care in diabetes—2021. 
+
 
 
 
